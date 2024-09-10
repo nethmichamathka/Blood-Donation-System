@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> lifeservarvessals</title>
+    <link rel="stylesheet" href="style/logedin.css">
+    <script defer src="Js/javascript.js"></script>
+</head>
+<body >
+    <h1 class="txt">lifeservarvessals.com</h1>
+   <header>
+        <img src="photos/2.png" class="logo">
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="process.html">Process</a>
+            <a href="appointment.html">appoinment</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="AboutUs.html">about us</a>
+            <a href="contactus.html">contact us</a>
+        </nav>
+
+        <div class="avatarse">
+            <img src="photos/avatar1.png" class="avatar">
+        </div>
+        <div class="signup">
+            <a href="index.html" id="logoutBtn">Log Out</a>
+            <a href="profile.php">profile</a>
+        </div>
+    
+   </header>
+   <div class="slideshow-container"> 
+
+    <!-- Full-width images with number and caption text -->
+    <div>
+    <div class="mySlides">
+      <img src="photos/slider3.jpg" class="img">
+      <button class="btn">Donate Now</button>
+    </div>
+  
+    <div class="mySlides">
+      <img src="photos/slider2.png" class="img">
+      <button class="btn">Donate Now</button>
+    </div>
+  
+    <div class="mySlides">
+      <img src="photos/slider4.jpg" class="img"> 
+      <button class="btn">Donate Now</button>
+     </div>
+  
+   </div>
+  </div>
+  <!-- footer -->
+   <footer> 
+          <div class="contact-us">
+            <h2>Contact Us</h2>
+           <p>Email: lifeserver@gmail.com<br>
+            Phone: (94)75842586<br>
+            Address: sliit,malabe, sri lanka</p>
+            <h3>copyright@lifeserver.com</h>
+          </div>
+              <div class="help-and-support">
+                 <a href="#">Help And Support</a>
+              </div>
+      </footer>
+
+      <script>
+        document.getElementById("logoutBtn").addEventListener('click', function (){
+          document.cookie = 'UID' +'=username; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+          window.location='userdboard.php';});
+      </script>
+  </body>
+</html>

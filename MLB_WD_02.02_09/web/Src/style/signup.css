@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0px;
+  }
+  .body{
+     overflow-y: hidden;
+  }
+  .txt{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+  }
+  /* Assuming you have a container element for the header */
+  /* Assuming you have a container element for the header */
+  /* Assuming you have a container element for the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Add padding for spacing if needed */
+    
+  }
+  
+  .logo {
+    /* Keep the logo (image) on the left */
+    width: 10%;
+  }
+  
+  .navbar {
+    /* Center-align the navigation links */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Allow the navbar to grow and take available space */
+  }
+  
+  .navbar a {
+    margin: 0 10px; /* Add some space around the navigation links */
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e00303; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    margin: 0 10px; /* Add spacing between the navigation buttons */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 25px; /* Adjust font size as needed */
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .navbar a:hover {
+    background-color: #db4c4c; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    text-decoration: none; /* Add underline on hover (optional) */
+  }
+  
+  .signup{
+    margin-right: 20px;
+  }
+  
+  .signup a{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #cf2929; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    margin-left: 10px; /* Add spacing between signup and signin buttons */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 25px; /* Adjust font size as needed */
+    font-family: 'Roboto Condensed', sans-serif;     
+  }
+  
+  .signup a:hover{
+    background-color: #ca5b57;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  footer {
+    background-color:red; /* Footer background color */
+    color: #fff; /* Text color */
+    text-align: left;
+    bottom: 0;
+    height: 12%;
+    position: absolute;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .contact-us h2 {
+    font-size: 24px; /* Adjust the heading font size */
+     /* Add spacing below the heading */
+    margin-left: 5%;
+    bottom: 0%;
+  }
+  
+  .contact-us p {
+    font-size: 16px; /* Adjust the paragraph font size */
+    margin: 5px 0;
+    margin-left: 5%;
+    position: absolute;
+    margin-bottom: 0%;
+  }
+  .contact-us h3{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  }
+  .help-and-support a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px; /* Adjust the paragraph font size */
+    margin: 5px 0;
+    position: relative;
+    margin-left: 1700px;
+    color: white;
+  }
+
+ .container{
+	 display: flex; 
+ }
+ .left-section, .right-section{
+	 flex : 1;
+	 padding: px;
+ }
+
+ .large-textbox {
+  width: 300px;
+  height: 30px;
+}
+.large-text {
+  font-size: 20px;
+  
+}
+.h3{
+	margin-left:50px;
+	font-size: 30px;
+}
+
+.custom-button {
+      width: 100px; 
+      height: 30px;
+      font-size: 15px;
+    }
+
+.h3{
+    text-align: center;
+    }

@@ -1,0 +1,374 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> lifeservarvessals</title>
+    <link rel="stylesheet" href="style/appointment.css">
+</head>
+<body >
+    <h1 class="txt">lifeservarvessals.com</h1>
+   <header>
+        <img src="photos/2.png" class="logo">
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="process.html">Process</a>
+            <a href="appointment.html">appoinment</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="AboutUs.html">about us</a>
+            <a href="contactus.html">contact us</a>
+        </nav>
+
+        <div class="signup">
+            <a href="signup.html">sign up</a>
+            <a href="signin.php">sign in</a>
+        </div>
+    
+   </header>
+
+   <!--මෙතන ඔයාලගේ කෝඩ් ටයිප් කරන්න  හෙඩර් ෆුටර් වෙනස් කරන්න එපා.  -->
+
+   
+   <!-- Page 1 -->
+  <form action="appointment.html" method="post">
+   <section class="container">
+    <header>BLOOD DONATION</header>
+        <div class="box1">
+            <p><strong>Read Carefully</strong></p>
+            <p>Before giving blood, you must fill out a confidential medical history form. Inquiries are made about behaviours that are known to raise the risk of contracting bloodborne illnesses, which are diseases that are communicated through blood.</p>
+            <p>Due to the potential for bloodborne infections, not everyone is able to donate blood. Blood donation is not permitted for those who fall into the following categories</p>
+            
+            <ul>
+                <li>Individuals with a congenital lack of coagulation factor</li>
+                <li>individuals who have tested positive for HIV</li>
+                <li>individuals who have had sex in the past for money or drugs</li>
+                <li>People who have taken steroids, injectable medicines, or other pharmaceuticals not on a doctor's prescription</li>
+            </ul>
+
+            <p>After making a donation, you relax and have a quick bite while sitting in an observation area. You may leave after 15 minutes.</p>
+
+            <ul>
+                <li>Increase your fluid intake after your blood donation.</li>
+                <li>Refrain from heavy lifting or severe exercise for roughly five hours.</li>
+                <li>If you feel lightheaded, lie down with your feet up until the feeling passes.</li>
+                <li>For the following five hours, keep your bandage on and dry. After removing the bandage, if bleeding occurs, apply pressure to the area and lift your arm to halt the flow of blood.</li>
+                <li>During the first 24 hours, if bruising develops, regularly apply a cold pack to the region.</li>
+                <li>To replace the iron lost during blood donation, think about including foods high in iron in your diet.</li>
+            </ul>
+        </div>
+    </div>
+</section><br><br><br>
+    
+
+   <!-- Page 2 (DONATE BLOOD) -->
+             <div>
+                <section class="container">
+                        <header>APPOINTMENT</header>
+                    <div class="box">
+                        <label>Full name</label>
+                        <input type="text" placeholder="Enter Full Name"  required  name="FullName"/>
+                    </div>
+
+                    <div class="box">
+                        <label>Address:</label>
+                        <textarea name="address" rows="4" cols="50" placeholder="address"required></textarea>
+                    </div>
+
+                    <div class="box">
+                        <label>Age</label>
+                        <input type="number" placeholder="Age" required  name="Age"/>
+                    </div>
+
+                    <div class="box">
+                    <lable>mobile Number</lable>
+                    <input type="telnum" placeholder="Mobile Number" maxlength="10" required name="telnum"/>
+                    </div>
+
+                    <div class="box">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Email" required  name="email"/>
+                    </div>
+
+                    <div class="box">
+                    <label>Select nearest location</label>
+                    <select name="nearestLocation" required>
+                    <option value="Location 1">colombo</option>
+                    <option value="Location 2">gampaha</option>
+                    <option value="Location 3">malabe</option>
+                    </select>
+                    </div>
+
+                    <div class="box">
+                    <label>Select date you prefer to donate</label>
+                    <input type="date" name="preferredDate" required> 
+                        </div>
+                    </section>   
+                 </div>
+                        <br><br>
+
+
+    
+
+                    <!-- Page 3 (DONATE BLOOD) -->
+                    
+                        <section class="container">
+                            <header>BLOOD DONATION</header>
+
+                                <div class="box">
+                                    <label>Sex</label>
+                                    <select name="gender" required>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Prefer not to say">Prefer not to say</option>
+                                    </select>
+                                </div>
+
+                                <div class="box">
+                                    <label>Weight</label>
+                                    <input type="number" name="weight" min="52" max="90" required>
+                                </div>
+
+                                <div class="box">
+                                        <label>Date of Birth:</label>
+                                        <input type="date" name="dateOfBirth" required>
+                                </div>
+
+                                <div class="box">
+                                    <label>How many times you have donated:</label>
+                                    <input type="number" name="donationCount" min="0" max="60" required>
+                                </div>
+
+                                <div class="box">
+                                <label>Select Blood Group (One selection only)</label>
+
+                                <div class="row">
+                                <input type="radio" name="bloodGroup" value="A+" checked="checked">
+                                <label>A+</label>
+                                </div>
+
+                                <div class="row">
+                                <input type="radio" name="bloodGroup" value="A-" checked="checked">
+                                <label>A-</label>
+                                </div>
+
+                                <div class="row">
+                                <input type="radio" name="bloodGroup" value="B+" checked="checked">
+                                <label>B+</label>
+                                </div>
+
+                                <div class="row">
+                                <input type="radio" name="bloodGroup" value="B-" checked="checked">
+                                <label>B-</label>
+                                </div>
+
+                                <div class="row">
+                                <input type="radio" name="bloodGroup" value="AB+" checked="checked">
+                                <label >AB+</label>
+                                </div>
+
+                                <div class="row">
+                                <input type="radio" name="bloodGroup" value="AB-" checked="checked">
+                                <label >AB-</label>
+                                </div>
+
+                                <div class="row">
+                                <input type="radio" name="bloodGroup" value="O+" checked="checked">
+                                <label >o+</label>
+                                </div>
+
+                                <div class="row">
+                                <input type="radio"  name="bloodGroup" value="O-" checked="checked">
+                                <label >o-</label>
+                                </div>
+                                </div>
+                        
+                        </section><br><br>
+
+                            <!-- Page 4 (DONATE BLOOD) -->
+                            <section class="container">
+                                <header>BLOOD DONATION</header>
+                                    <div class="box">
+                                        <p>Have you had any illness in the past week?</p>
+                                        <label>
+                                            <input type="radio" name="illness" value="Yes"> Yes
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="illness" value="No"> No
+                                        </label>
+                                    </div>
+
+                                    <div class="box">
+                                        <p>If 'yes', what was it?</p>
+                                        <textarea name="illnessDetails" rows="4" cols="50"></textarea>
+                                    </div>
+
+                                    <div class="box">
+                                        <p>Have you had any kind of pills in the last six months?</p>
+                                        <label>
+                                            <input type="radio" name="pills" value="Yes"> Yes
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="pills" value="No"> No
+                                        </label>
+                                    </div>
+
+                                    <div class="box">
+                                        <p>Have you had tattoos in the last six months?</p>
+                                        <label>
+                                            <input type="radio" name="tattoos" value="Yes"> Yes
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="tattoos" value="No"> No
+                                        </label>
+                                    </div>
+
+                                    <div class="box">
+                                        <p>Have you had unsafe sex in the last three months?</p>
+                                        <label><input type="radio" name="unsafeSex" value="Yes"> Yes</label>
+                                            
+                                        <label><input type="radio" name="unsafeSex" value="No"> No</label>
+                            
+                                            
+                                </div>
+
+                                    <div class="box">
+                                        <p>Were you abroad in the last six months?</p>
+                                        <label>
+                                            <input type="radio" name="abroad" value="Yes"> Yes
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="abroad" value="No"> No
+                                        </label>
+                                    </div>
+                            
+                        </section><br><br><br>
+
+                            <!-- Page 5 (DONATE BLOOD) -->
+                            
+
+                            <section class="container">
+                                <header>BLOOD DONATION</header>
+                                    <div class="box">
+                                        <p>Have you had ear piercing in the last six months?</p>
+                                            <label><input type="radio" name="earPiercing" value="Yes"> Yes</label>
+                                            <label><input type="radio" name="earPiercing" value="No"> No</label>
+
+                                    </div>
+
+                                    
+                            <p>Have you ever felt these symptoms after donating blood (check all that apply)</p>
+                                <div class="row2">
+                                    <label>
+                                        <input type="radio" name="symptoms" value="Vomiting"> Vomiting
+                                    </label>
+                                </div>
+                                <div class="row2">
+                                    <label>
+                                        <input type="radio" name="symptoms" value="Dizzy"> Dizzy
+                                    </label>
+                                </div>
+                                <div class="row2">
+                                    <label>
+                                        <input type="radio" name="symptoms" value="Nausea"> Nausea
+                                    </label>
+                                </div>
+                                <div class="row2">
+                                    <label>
+                                        <input type="radio" name="symptoms" value="Faint"> Faint
+                                    </label>
+                                </div>
+                                <div class="row2">
+                                    <label>
+                                        <input type="radio" name="symptoms" value="None"> None
+                                    </label>
+                                </div> 
+                            </div>
+                        </section>
+                    <br><br>
+
+                <!-- Page 6(DONATE BLOOD) -->
+                
+                <section class="container">
+                <header>BLOOD DONATION</header>
+
+                <div class="box">
+                    <p>Do you suffer from AIDS?</p>
+            
+                <div class="aid">
+                <label>
+                    <input type="radio" name="aids1" value="Yes"> Yes
+                    <input type="radio" name="aids1" value="No"> No
+                </label>
+            
+
+             <p>Have you ever injected yourself with a used needle?</p>
+                <div class="aid">
+                    <label>
+                        <input type="radio" name="aids" value="Yes"> Yes
+                        <input type="radio" name="aids" value="No"> No
+                    </label>
+                </div><br><br>
+
+                <div>
+                <p>Do you have or had these illnesses?</p>
+             </div>
+                <div class="aid">
+                    <label>
+                        <input type="radio" name="illnesses" value="Asthma"> Asthma
+                    </label>
+                </div>
+                <div class="aid">
+                <label>
+                    <input type="radio" name="illnesses" value="Pneumonia"> Pneumonia
+                </label>
+                </div>
+                <div class="aid">
+                <label>
+                    <input type="radio" name="illnesses" value="Dengue"> Dengue
+                </label>
+                </div>
+                <div class="aid">
+                <label>
+                    <input type="radio" name="illnesses" value="Malaria"> Malaria
+                </label>
+                </div>
+                <div class="aid">
+                <label>
+                    <input type="radio" name="illnesses" value="Diabetes"> Diabetes
+                </label>
+                </div>
+
+                <div class="aid">
+                 <p>Confirm that the above information is true:</p>
+                     <label>
+                        <input type="checkbox" name="confirmInformation" value="Yes"> Yes, I Confirm 
+                        </label>
+                    </div>
+                 </div><div class="submitbtn">
+                        <a href="index.html" type="button" class="cancel" value="cancel" name="cancel" >Cancel</button></a>
+                        <button type="submit" class="submit" value="submit" name="submitbtn" >submit</button>
+                        <a href="./appointmented.php" type="button" value="My appoinment" name="Myappoinment" class="cancel">Myappoinment</a>
+
+                    </div>
+                    </div>
+                </div></section>
+          <br><br><br>
+        </form>
+
+            <footer>
+                <div class="contact-us">
+                    <h2>Contact Us</h2>
+                    <p>Email: lifeserver@gmail.com<br>
+                    Phone: (94)75842586<br>
+                    Address: sliit,malabe, sri lanka</p>
+                    <h3>copyright@lifeserver.com</h3>
+                </div>
+                <div class="help-and-support">
+                        <a href="#">Help And Support</a>
+                </div>
+            </footer>
+</body>
+</html>

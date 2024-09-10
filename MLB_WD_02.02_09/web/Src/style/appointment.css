@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0px;
+  }
+  body{
+     /* overflow-y: hidden; */
+  }
+  .txt{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+  }
+  /* Assuming you have a container element for the header */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Add padding for spacing if needed */
+    
+  }
+  
+  .logo {
+    /* Keep the logo (image) on the left */
+    width: 10%;
+  }
+  
+  .navbar {
+    /* Center-align the navigation links */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Allow the navbar to grow and take available space */
+  }
+  
+  .navbar a {
+    margin: 0 10px; /* Add some space around the navigation links */
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e00303; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    margin: 0 10px; /* Add spacing between the navigation buttons */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 25px; /* Adjust font size as needed */
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .navbar a:hover {
+    background-color: #db4c4c; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    text-decoration: none; /* Add underline on hover (optional) */
+  }
+  
+  .signup{
+    margin-right: 20px;
+  }
+  
+  .signup a{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #cf2929; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    margin-left: 10px; /* Add spacing between signup and signin buttons */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 25px; /* Adjust font size as needed */
+    font-family: 'Roboto Condensed', sans-serif;     
+  }
+  
+  .signup a:hover{
+    background-color: #ca5b57;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  footer {
+    background-color:red; /* Footer background color */
+    color: #fff; /* Text color */
+    text-align: left;
+    bottom: 0;
+    height: 10%;
+    position: absolute;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+  }
+  
+  .contact-us h2 {
+    font-size: 24px; /* Adjust the heading font size */
+     /* Add spacing below the heading */
+    margin-left: 5%;
+    bottom: 0%;
+  }
+  
+  .contact-us p {
+    font-size: 16px; /* Adjust the paragraph font size */
+    margin: 5px 0;
+    margin-left: 5%;
+    position: absolute;
+    margin-bottom: 0%;
+  }
+  .contact-us h3{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  }
+  .help-and-support a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px; /* Adjust the paragraph font size */
+    margin: 5px 0;
+    position: relative;
+    margin-left: 1700px;
+    color: white;
+  }
+
+ 
+
+  /* Reset some default browser styles */
+body, h1, p, form {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* Style the container */
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #c2ddd4;
+    border: 1px solid #020000;
+    border-radius: 10px;
+    text-align: center;
+   padding-bottom: 150px;
+   font-size: 20px;
+   
+}
+
+/* Style the header */
+header {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+/* Style the form */
+.form {
+    text-align: left;
+    border-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* Style the form boxes */
+.box {
+    margin-bottom: 20px;
+}
+/*style the 2nd page paragraph*/
+.box1{
+  color: #f10606;
+  font-size: 25px;
+}
+
+/* Style labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style input and select elements */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the "Next" button */
+.butN {
+    background-color: #ca5b57;
+    color: #fff;
+    border: #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Style the "Next" button on hover */
+.butN:hover {
+    background-color:#e00303;
+}
+
+/*style the "back" button*/
+.btback{
+  background-color: #ca5b57;
+  color: #fff;
+  border: #ccc;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+ 
+}
+
+/* Style the "back" button on hover */
+.btback:hover {
+    background-color:#e00303;
+}
+
+/*style the "cancel" button*/
+.cancel{
+  background-color: #370705;
+    color: #fff;
+    border: #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 0px;
+    text-decoration: none;
+
+}
+/* Style the "cancel" button on hover */
+.cancel:hover{
+  background-color:#e00303;
+}
+/* Style the "submit" button on hover */
+.submit{
+  background-color: #f1120a;
+    color: #fff;
+    border: #140707;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+/* Style the "submit" button on hover */
+.submit:hover{
+  background-color:#973838;
+}
+
+.row{
+  float: left;
+  padding: 10px 10px;
+  padding-bottom: 10px;
+
+}
+
+.row2{
+  float: left;
+  padding: 10px 10px;
+  padding-bottom: 10px;
+}
+
+.row3{
+  text-align: left;
+}
+.aid{
+  float: left;
+  padding-top: 4px;
+  padding-bottom: 50px;
+}
+.submitbtn{
+  margin-left: 600px;
+  margin-top: 200px;
+}

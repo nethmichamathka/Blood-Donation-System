@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0px;
+}
+body{
+  overflow: hidden;
+}
+.body{
+overflow: hidden;}
+.txt{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+}
+/* Assuming you have a container element for the header */
+/* Assuming you have a container element for the header */
+/* Assuming you have a container element for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; Add padding for spacing if needed */
+}
+.logo {
+  /* Keep the logo (image) on the left */
+  width: 5%;
+  left: 10px;
+}
+.navbar {
+  /* Center-align the navigation links */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Allow the navbar to grow and take available space */
+}
+
+.navbar a {
+  margin: 0 10px; /* Add some space around the navigation links */
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #e00303; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none;
+  margin: 0 10px; /* Add spacing between the navigation buttons */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 25px; /* Adjust font size as needed */
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar a:hover {
+  background-color: #db4c4c; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+  text-decoration: none; /* Add underline on hover (optional) */
+}
+
+.signup{
+  margin-right: 20px;
+}
+
+.signup a{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #cf2929; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none;
+  margin-left: 10px; /* Add spacing between signup and signin buttons */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 25px; /* Adjust font size as needed */
+  font-family: 'Roboto Condensed', sans-serif;     
+}
+
+.signup a:hover{
+  background-color: #ca5b57;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+footer {
+  background-color:red; /* Footer background color */
+  color: #fff; /* Text color */
+  text-align: left;
+  bottom: 0;
+  height: 10%;
+  position: absolute;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact-us h2 {
+  font-size: 24px; /* Adjust the heading font size */
+   /* Add spacing below the heading */
+  margin-left: 5%;
+  bottom: 0%;
+}
+
+.contact-us p {
+  font-size: 16px; /* Adjust the paragraph font size */
+  margin: 5px 0;
+  margin-left: 4%;
+  position: absolute;
+  margin-bottom: 0%;
+}
+.contact-us h3{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+.help-and-support a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px; /* Adjust the paragraph font size */
+  margin: 5px 0;
+  position: relative;
+  margin-left: 1700px;
+  color: white;
+}
+/* ???? ?????? css ???? ????? ????? ?? ??? ????? ????? ???   */
+.center-container {
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+   
+}
+
+/* Style the h2   */
+.center-container h2 {
+  font-size: 30px;
+  text-align: center;
+  font-style: bold ; 
+  color: rgb(66, 17, 18);/* Center the text within the h2 element */
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+} 
+
+
+/* Style the paragraph   */
+p {
+  font-size: 30px;
+  text-align: center; /* Center the text within the p element */
+  font-family: 'Roboto Condensed', sans-serif;
+} 
+
+ /* Style the image gallery container */
+ .image-container img {
+  max-width: 15%;
+  margin-right: 2%;
+  margin-left: 2%;
+  height: 10%;/* Add some margin between the images */
+  text-align: right; /* Align images to the right */
+  margin-top: 40px;
+}
+.image-container{
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+ align-content: center;
+}
+
+/* Style each image and its description */
+.image {
+  text-align: center; /* Center-align text under each image */
+  flex-basis: calc(33.33% - 20px); /* Distribute images evenly with some spacing */
+  margin-bottom: 10px; /* Add space between images and descriptions */
+}
+
+.image img {
+  max-width: 50%; /* Ensure images are responsive */
+  height: auto;
+}
+
+.image p {
+  font-size: 13px; /* Adjust font size as needed */
+}
+/* Style the container to center the fieldset */
+.center-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 29vh; /* This centers the fieldset vertically within the viewport */
+}
+
+/* Style the fieldset as needed */
+fieldset {
+  width: 20%; /* Adjust the width as needed */
+  padding: 10px; /* Add padding to the fieldset for spacing */
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  text-align: center; /* Center-align the content within the fieldset */
+  background-color: #cf2929;
+  color: #fff;
+}
